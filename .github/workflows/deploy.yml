@@ -76,8 +76,8 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
-      - name: Export static site
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
+      - name: Copy public assets into out/
+        run: cp -a public/. out/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
