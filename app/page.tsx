@@ -21,7 +21,7 @@ export default function BookReviewStages() {
 
   const books = [
     {
-      id: 1,
+      id: 3,
       title: "The Prince",
       author: "Niccolò Machiavelli",
       image: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/El_principe-Nicolas_Maquiavelo-lg.png`,
@@ -30,14 +30,14 @@ export default function BookReviewStages() {
     },
     {
       id: 2,
-      title: "Beyond Good and Evil",
-      author: "Friedrich Nietzsche",
-      image: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/Mas_alla_del_bien_y_del_mal-Friedrich_Nietzsche-md.png`,
+      title: "The Meditations",
+      author: "Marcus Aurelius Antoninus",
+      image: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/Las_meditaciones_de_Marco_Aurelio-Marco_Aurelio-lg.png`,
       color: "from-blue-400 to-cyan-400",
       bgColor: "bg-gradient-to-br from-blue-50 to-cyan-50",
     },
     {
-      id: 3,
+      id: 1,
       title: "The Art of War",
       author: "Sun Tzu",
       image: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/El_arte_de_la_guerra-Sun_Tzu-lg.png`,
