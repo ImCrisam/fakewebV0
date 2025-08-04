@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
   assetPrefix: isProd ? '/fakewebV0/' : '',
 
   env: {
-    NEXT_PUBLIC_ASSET_PREFIX: isProd ? '/fakewebV0' : '',
+    NEXT_PUBLIC_ASSET_PREFIX: isProd ? '/fakewebV0/_next/static/' : '',
   },
 };
 
